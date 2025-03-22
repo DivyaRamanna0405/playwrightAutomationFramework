@@ -1,0 +1,86 @@
+# 1. PROJECT SETUP
+
+### **Step 1: Create a New Folder and Open in VS Code**
+1. **Create a New Folder**:
+   ```sh
+   mkdir PlaywrightAutomation
+   cd PlaywrightAutomation
+   ```
+
+2. **Open Folder in VS Code**:
+   ```sh
+   code .
+   ```
+
+---
+
+### **Step 2: Initialize Git and Connect to GitHub**
+1. **Initialize a New Git Repository**:
+   ```sh
+   git init
+   ```
+   - This creates a new Git repository in your folder.
+
+2. **Create a `.gitignore` File**:
+   - Add common files/folders to exclude, such as:
+     ```
+     node_modules/
+     .env
+     .vscode/
+     *.log
+     ```
+
+3. **Create a GitHub Repository**:
+   - Create a new repository on GitHub and copy the repository URL (e.g., `https://github.com/username/PlawrightAutomationFramework.git`).
+
+4. **Add the GitHub Remote Repository**:
+   ```sh
+   git remote add origin https://github.com/username/PlawrightAutomationFramework.git
+   ```
+
+5. **Stage and Commit Files**:
+   ```sh
+   git add .
+   git commit -m "Initial commit with Playwright setup"
+   ```
+
+6. **Push to GitHub**:
+   ```sh
+   git push -u origin master
+   ```
+
+---
+
+### **Step 3: Verify Git Status and Manage Changes**
+1. **Check Repository Status**:
+   ```sh
+   git status
+   ```
+   - Displays untracked files (e.g., `.gitignore`, `MyNotes.md`).
+
+2. **Add Remote Repository (if not done earlier)**:
+   ```sh
+   git remote add origin git@github.com:username/PlawrightAutomationFramework.git
+   ```
+
+3. **Verify Remote Connection**:
+   ```sh
+   git remote -v
+   ```
+   - Confirms the remote repository URL.
+
+4. **Pull Latest Changes from GitHub**:
+   ```sh
+   git pull origin main
+   ```
+
+5. **Stage and Commit Untracked Files**:
+   ```sh
+   git add .
+   git commit -m "Add untracked files"
+   ```
+
+6. **Push Changes to GitHub**:
+   ```sh
+   git push origin master
+   ```
